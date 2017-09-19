@@ -3,6 +3,10 @@
   "license": "MIT",
   "author": "Gain Compliance",
   "description": "shareable config for commitlint",
+  "repository": "GainCompliance/commitlint-config-gain",
+  "bugs": "https://github.com/GainCompliance/commitlint-config-gain/issues",
+  "homepage": "https://github.com/GainCompliance/commitlint-config-gain#readme",
+  "main": "index.js",
   "scripts": {
     "lint:md": "globstar --node -- markdownlint **/*.md",
     "test": "run-s lint:*",
