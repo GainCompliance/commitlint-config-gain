@@ -2,6 +2,8 @@
 
 shareable config for commitlint
 
+[![license](https://img.shields.io/github/license/GainCompliance/commitlint-config-gain.svg)](LICENSE)
+
 [![Build Status](https://img.shields.io/travis/GainCompliance/commitlint-config-gain/master.svg?style=flat)](https://travis-ci.org/GainCompliance/commitlint-config-gain)
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
