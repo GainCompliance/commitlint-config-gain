@@ -3,6 +3,7 @@
 shareable config for commitlint
 
 [![license](https://img.shields.io/github/license/GainCompliance/commitlint-config-gain.svg)](LICENSE)
+[![npm](https://img.shields.io/npm/v/commitlint-config-gain.svg)](https://www.npmjs.com/package/commitlint-config-gain)
 
 [![Build Status](https://img.shields.io/travis/GainCompliance/commitlint-config-gain/master.svg?style=flat)](https://travis-ci.org/GainCompliance/commitlint-config-gain)
 
