@@ -1,5 +1,7 @@
 # commitlint-config-gain
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/GainCompliance/commitlint-config-gain.svg)](https://greenkeeper.io/)
+
 shareable config for commitlint
 
 [![license](https://img.shields.io/github/license/GainCompliance/commitlint-config-gain.svg)](LICENSE)
