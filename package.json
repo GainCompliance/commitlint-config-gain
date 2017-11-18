@@ -29,6 +29,6 @@
     "semantic-release": "8.2.0"
   },
   "dependencies": {
-    "commitlint-config-travi": "1.2.7"
+    "commitlint-config-travi": "1.2.8"
   }
 }
