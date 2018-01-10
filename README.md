@@ -22,7 +22,7 @@ $ npm install commitlint-config-gain -D
 ### Define the config for your project
 
 ```sh
-$ echo "module.exports = {extends: ['gain']};" > commitlint.config.js
+$ echo "module.exports = {extends: ['gain']};" > .commitlintrc.js
 ```
 
 ### Define the npm script for [husky](https://github.com/typicode/husky)
