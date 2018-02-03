@@ -4,7 +4,10 @@ notifications:
 branches:
   except:
   - "/^v\\d+\\.\\d+\\.\\d+$/"
-after_success: npm run semantic-release
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: npm run semantic-release
 env:
   global:
     secure: q3ggwpeb4WC7aQ1VZ289sC/QkmP171M0jsUXOETb03Zgienu97F53Q9wWY/yXpmYYLXJ4O23lRKKcyH8E6wG76TdR+/lv5gKYrDXujsEKqnP08rojKrJ4dkfEGZ1G9bikcDj3szp+Tq/lQ97GEUbHOyC7pb7CgW7FndiFNSRFjCCuqXYoOdKRgF1qcmYbFprU+pzUDutnYjvzPcTBOT4XXJR7DaBicTw87pkZ85uWHG//2Vf/r8N2zlcJZEE+mJhfna4hqEn+bIFXuPTNus2gUntdvkXfbg5E1dXy+Z9kYq4wjVDG9uTADzvPiaGIIg3Xxg8zw+szoA7w6pcl/oHoLy9qCH7jFCte/i1OqLdovgvHahvchfAd/kPtPJbHmPYAAMCih3yRaLadxQCwlEXbOe5O6XfxPQFRnrzh7JZdxPEUUsiTaqlJPe7sy0wApxFCrsl3ZxuafNBVNJA8PAsHWqBj7KBgUL0zbK5+ZvfYImhN0bXdHpYLcaFk80VjD0QIlb4u9f7t1N/F5FGzcHeT2vfC1+l4E1KYtJelSF4z4EhUWJSKXqDH6ubGh/6gy2VUuJE7MUpHlgTLzdJY9izz5m/mN7MY+QkaS21BhuwgSuFE88I2jHr5KYKESWDPl1cCQ++a3jqJPUqfTBf8RYCL/D3ukjWGlOTVOxI5pjanLE=
