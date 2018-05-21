@@ -30,6 +30,6 @@
     "semantic-release": "15.1.11"
   },
   "dependencies": {
-    "commitlint-config-travi": "1.2.29"
+    "commitlint-config-travi": "1.2.30"
   }
 }
