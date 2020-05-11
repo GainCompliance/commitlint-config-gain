@@ -23,7 +23,7 @@
     }
   },
   "devDependencies": {
-    "@travi/any": "2.0.7",
+    "@travi/any": "2.0.8",
     "cz-conventional-changelog": "3.2.0",
     "globstar": "1.0.0",
     "husky": "^4.0.2",
